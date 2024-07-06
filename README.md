@@ -94,7 +94,7 @@ This project was a collaborative effort by a team of five friends. Each member c
 
 Bejisto Joseph.B : *Data Collection,Model Architecture and Training*.<br>
 Kamalesh.B : *Model Evaluation and Quantization*.<br>
-Vijay Kumar.M : *Upscaling Script and TFLite Integration*.<br>
+VijayaKumar.M : *Upscaling Script and TFLite Integration*.<br>
 Surya L : *Documentation and Results Analysis*.<br>
 Kovendhan.P :  *Project Coordination, Code Integration,Testing and GitHub Maintenance*.<br>
 

@@ -57,7 +57,7 @@ The train_model.py script is used to train the CNN model. The script performs th
 
 Defines image dimensions and batch size.
 Creates image data generators for training and testing datasets.
-Builds a lightweight CNN model for binary classification (original vs. pixelated).
+Builds a lightweight CNN model for binary classification (non-pixelated vs. pixelated).
 Compiles and trains the model.
 Evaluates the model and prints the test accuracy.
 Saves the trained model and quantizes it for better performance.

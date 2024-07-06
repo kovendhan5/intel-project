@@ -15,7 +15,7 @@ This project aims to correct pixelated images by utilizing a Convolutional Neura
 
 ## Introduction
 
-Pixelated images are common in various scenarios, such as low-resolution cameras or privacy-preserving image sharing. This project addresses the challenge of restoring high-quality images from pixelated versions by leveraging deep learning techniques.
+Pixelated images are common in various scenarios, such as low-resolution cameras or privacy-preserving image sharing. This project addresses the challenge of restoring high-quality images from pixelated versions by leveraging deep learning techniques. The project is specifically designed to handle images with a resolution of 1920x1080 pixels, ensuring optimal performance and accuracy for high-definition images.
 
 ## Project Structure
 

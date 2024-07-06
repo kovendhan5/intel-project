@@ -84,10 +84,10 @@ python upscaling.py
 The model is evaluated using test accuracy, F1 Score, Precision, Recall, and Confusion Matrix. The quantized TFLite model size is also displayed for performance comparison.
 
 ## How to Use
-Prepare the dataset and place it in the appropriate directories (/content/train and /content/test).
-Train the model using train_model.py.
-Place the pixelated images to be corrected in /content/Image/Pixelated.
-Run the upscaling.py script to generate the corrected images in /content/Image/Output.
+Prepare the dataset and place it in the appropriate directories (/content/train and /content/test).<br>
+Train the model using train_model.py.<br>
+Place the pixelated images to be corrected in /content/Image/Pixelated.<br>
+Run the upscaling.py script to generate the corrected images in /content/Image/Output.<br>
 
 ## Contributors
 This project was a collaborative effort by a team of six friends. Each member contributed to different aspects of the project:

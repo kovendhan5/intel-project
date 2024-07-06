@@ -48,8 +48,8 @@ pip install tensorflow numpy pillow matplotlib scikit-learn
 ## **Dataset**
 The dataset should consist of two main directories:
 
-/content/train: Contains training images with subdirectories for each class (e.g., Original and Pixelated).
-/content/test: Contains test images with subdirectories for each class.
+/content/train: Contains training images with subdirectories for each class (e.g., Non-pixelated and Pixelated).<br>
+/content/test: Contains test images with subdirectories for each class.(e.g., Non-pixelated and Pixelated).<br>
 Ensure that the dataset is organized properly for the ImageDataGenerator to work correctly.
 
 ## *Model Training*

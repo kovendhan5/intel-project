@@ -81,7 +81,7 @@ converter = tf.lite.TFLiteConverter.from_keras_model(model)
 converter.optimizations = [tf.lite.Optimize.DEFAULT]
 tflite_model = converter.convert()
 
-# Save the quantized model
+# Save the quantized model 
 with open('/content/pixelated_image_detector_quantized.tflite', 'wb') as f:
     f.write(tflite_model)
 

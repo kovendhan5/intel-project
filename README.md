@@ -45,7 +45,7 @@ You can install the dependencies using pip:
 pip install tensorflow numpy pillow matplotlib scikit-learn
 ```
 
-## **Dataset**
+## Dataset
 The dataset should consist of two main directories:
 
 /content/train: Contains training images with subdirectories for each class (e.g., Non-pixelated and Pixelated).<br>
@@ -80,7 +80,7 @@ Run the following command to upscale pixelated images:<br>
 ```bash
 python upscaling.py
 ```
-## **Results**
+## Results
 The model is evaluated using test accuracy, F1 Score, Precision, Recall, and Confusion Matrix. The quantized TFLite model size is also displayed for performance comparison.
 
 ## How to Use

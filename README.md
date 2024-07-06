@@ -1,4 +1,4 @@
-# Pixelated Image Correction using Machine Learning
+# Pixelated Image Detection & Correction using Machine Learning
 
 This project aims to correct pixelated images by utilizing a Convolutional Neural Network (CNN) model and SRGAN model is used to upscale pixelated images to higher resolutions. The project consists of two main parts: training the model and using the trained model to upscale and correct pixelated images.
 

@@ -90,12 +90,11 @@ Place the pixelated images to be corrected in /content/Image/Pixelated.<br>
 Run the upscaling.py script to generate the corrected images in /content/Image/Output.<br>
 
 ## Contributors
-This project was a collaborative effort by a team of six friends. Each member contributed to different aspects of the project:
+This project was a collaborative effort by a team of five friends. Each member contributed to different aspects of the project:
 
-Bejisto Joseph.B: *Data Collection and Preprocessing*.<br>
-Vijay Kumar.M: *Model Architecture and Training*.<br>
+Bejisto Joseph.B: *Data Collection,Model Architecture and Training*.<br>
 Kamalesh.B: *Model Evaluation and Quantization*.<br>
-Bejisto Joseph.B: *Upscaling Script and TFLite Integration*.<br>
+Vijay Kumar.M: *Upscaling Script and TFLite Integration*.<br>
 Surya L: *Documentation and Results Analysis*.<br>
 Kovendhan.P:  *Project Coordination, Code Integration, and GitHub Maintenance*.<br>
 

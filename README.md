@@ -89,7 +89,15 @@ Train the model using train_model.py.
 Place the pixelated images to be corrected in /content/Image/Pixelated.
 Run the upscaling.py script to generate the corrected images in /content/Image/Output.
 
-## Contributing
-Contributions are welcome! If you have any ideas, improvements, or bug fixes, feel free to create a pull request or open an issue.
+## Contributors
+This project was a collaborative effort by a team of six friends. Each member contributed to different aspects of the project:
+
+Bejisto Joseph.B: Data Collection and Preprocessing.
+Vijay Kumar.M: Model Architecture and Training.
+Kamalesh.B: Model Evaluation and Quantization.
+Bejisto Joseph.B: Upscaling Script and TFLite Integration.
+Surya L: Documentation and Results Analysis.
+Kovendhan.P:  Project Coordination, Code Integration, and GitHub Maintenance.
+
 
 

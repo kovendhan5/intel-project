@@ -12,7 +12,6 @@ This project aims to correct pixelated images by utilizing a Convolutional Neura
 - [Results](#results)
 - [How to Use](#how-to-use)
 - [Contributing](#contributing)
-- [License](#license)
 
 ## Introduction
 
@@ -20,13 +19,13 @@ Pixelated images are common in various scenarios, such as low-resolution cameras
 
 ## Project Structure
 
-├── train_model.py # Code for training the model
-├── upscaling.py # Code for upscaling and correcting pixelated images
-├── README.md # Project documentation
-├── /content/train # Directory containing training images
-├── /content/test # Directory containing test images
-├── /content/Image/Pixelated # Directory containing pixelated images for upscaling
-├── /content/Image/Output # Directory for storing output images
+├── train_model.py # Code for training the model<br>
+├── upscaling.py # Code for upscaling and correcting pixelated images<br>
+├── README.md # Project documentation<br>
+├── /content/train # Directory containing training images<br>
+├── /content/test # Directory containing test images<br>
+├── /content/Image/Pixelated # Directory containing pixelated images for upscaling<br>
+├── /content/Image/Output # Directory for storing output images<br>
 
 
 ## Dependencies
@@ -44,7 +43,7 @@ You can install the dependencies using pip:
 
 ```bash
 pip install tensorflow numpy pillow matplotlib scikit-learn
-
+```
 
 **Dataset**
 The dataset should consist of two main directories:
@@ -53,7 +52,7 @@ The dataset should consist of two main directories:
 /content/test: Contains test images with subdirectories for each class.
 Ensure that the dataset is organized properly for the ImageDataGenerator to work correctly.
 
-Model Training
+*Model Training*
 The train_model.py script is used to train the CNN model. The script performs the following steps:
 
 Defines image dimensions and batch size.
@@ -65,10 +64,10 @@ Saves the trained model and quantizes it for better performance.
 Usage
 Run the following command to train the model:
 
-bash
-Copy code
+```bash
 python train_model.py
-Upscaling Pixelated Images
+```
+**Upscaling Pixelated Images**
 The upscaling.py script is used to upscale and correct pixelated images using the trained and quantized TFLite model. The script performs the following steps:
 
 Preprocesses the input image.
@@ -78,10 +77,10 @@ Saves and plots the super-resolution image.
 Usage
 Run the following command to upscale pixelated images:
 
-bash
+```bash
 python upscaling.py
-
-Results
+```
+**Results**
 The model is evaluated using test accuracy, F1 Score, Precision, Recall, and Confusion Matrix. The quantized TFLite model size is also displayed for performance comparison.
 
 How to Use

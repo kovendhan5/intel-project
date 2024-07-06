@@ -11,7 +11,7 @@ This project aims to correct pixelated images by utilizing a Convolutional Neura
 - [Upscaling Pixelated Images](#upscaling-pixelated-images)
 - [Results](#results)
 - [How to Use](#how-to-use)
-- [Contributing](#contributing)
+- [Contributors](#contributors)
 
 ## Introduction
 

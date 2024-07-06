@@ -10,7 +10,7 @@ os.environ["TFHUB_DOWNLOAD_PROGRESS"] = "True"
 # Constants
 DATASET_DIR = '/content/Image/Pixelated'  # Replace with your dataset directory
 OUTPUT_DIR = '/content/Image/Output'  # Output directory for super-resolution images
-TFLITE_MODEL_PATH = '/content/pixelated_image_detector_quantized.tflite'  # Path to your TFLite model
+TFLITE_MODEL_PATH = '/content/pixelated_image_detector_quantized.tflite'  # Path to your TFLite model 
 
 if not os.path.exists(OUTPUT_DIR):
     os.makedirs(OUTPUT_DIR)
